@@ -1,0 +1,32 @@
+        /*Large laptop*/
+        
+        @media(min-width:1000px) {
+            .product-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+        /*small laptop*/
+        
+        @media (max-width:999px) and (min-width:751px) {
+            .product-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+        /*tablet*/
+        
+        @media(max-width:750px) {
+            .product-container {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+        /*Phone*/
+        
+        @media(max-width:450px) {
+            .product-container {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }

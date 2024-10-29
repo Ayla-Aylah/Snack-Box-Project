@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    color: deeppink;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.links {
+    display: flex;
+}
+
+.nav-bar a {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: rgba(16, 16, 16, 0.386);
+}
+
+.Snacks {
+    background-color: rgb(212, 230, 246);
+}
+
+.container {
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-left: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.all-container:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.vd-img {
+    height: 200px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.section-header {
+    margin: 40px 40px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.All {
+    padding: 40px;
+}
+
+.name {
+    background-color: rgb(212, 230, 246);
+    width: 100vw;
+    margin: 0;
+    text-shadow: 2px 2px 3px;
+    padding-left: 7px;
+}
+
+.all-container {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: 0.5s;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
